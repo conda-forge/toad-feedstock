@@ -1,5 +1,5 @@
 {% set name = "toad" %}
-{% set version = "0.0.58" %}
+{% set version = "0.0.59" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: 9dce218ac11eb9e3a80b233557694d0d349418a1ba517306919dff02595e5f07
+  sha256: 47e74edb13d74fa6d577183b0b32c796fa01d1a1fe784f5889ccb6bd7a09bebc
 
 build:
   number: 0
