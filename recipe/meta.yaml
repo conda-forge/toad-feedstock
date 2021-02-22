@@ -1,5 +1,5 @@
 {% set name = "toad" %}
-{% set version = "0.0.62" %} 
+{% set version = "0.0.63" %} 
 
 package:
   name: {{ name|lower }}
@@ -7,10 +7,10 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: b085ef4f998e68bc8e14a91191f93d5ba0ec40fb9aaecfeb0e5255c74ccc2f0a
+  sha256: 3ea593cacdf5e8d52c88e1dea053a676948f82812b5c3524b4995bea478abc7a
 
 build:
-  number: 2
+  number: 0
   skip: true  # [py2k]
   entry_points:
     - toad = toad.cli:main
