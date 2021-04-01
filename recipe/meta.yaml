@@ -22,7 +22,7 @@ requirements:
   host:
     - python
     - pip
-    - numpy >=1.17.3
+    - numpy >=1.18.0, <1.20
     - cython  >=0.29.15
     - setuptools
   run:
@@ -30,7 +30,7 @@ requirements:
     - {{ pin_compatible('numpy') }}
     - pandas
     - scipy
-    - scikit-learn >=0.22
+    - scikit-learn >=0.21
     - seaborn >=0.10.0
 
 test:
